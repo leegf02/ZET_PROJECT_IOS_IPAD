@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3495B4178CF07D003ECB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3495B3178CF07D003ECB5E /* UIKit.framework */; };
+		9B3495B6178CF07D003ECB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3495B5178CF07D003ECB5E /* Foundation.framework */; };
+		9B3495B8178CF07D003ECB5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3495B7178CF07D003ECB5E /* CoreGraphics.framework */; };
+		9B3495BE178CF07D003ECB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B3495BC178CF07D003ECB5E /* InfoPlist.strings */; };
+		9B3495C0178CF07D003ECB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3495BF178CF07D003ECB5E /* main.m */; };
+		9B3495C4178CF07D003ECB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3495C3178CF07D003ECB5E /* AppDelegate.m */; };
+		9B3495C6178CF07D003ECB5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3495C5178CF07D003ECB5E /* Default.png */; };
+		9B3495C8178CF07D003ECB5E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3495C7178CF07D003ECB5E /* Default@2x.png */; };
+		9B3495CA178CF07D003ECB5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3495C9178CF07D003ECB5E /* Default-568h@2x.png */; };
+		9B3495CD178CF07D003ECB5E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3495CC178CF07D003ECB5E /* RootViewController.m */; };
+		9B3495D0178CF07D003ECB5E /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3495CF178CF07D003ECB5E /* DataViewController.m */; };
+		9B3495D3178CF07D003ECB5E /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3495D2178CF07D003ECB5E /* ModelController.m */; };
+		9B3495D6178CF07D003ECB5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3495D4178CF07D003ECB5E /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B3495B0178CF07D003ECB5E /* Zet_Zju_Ios_Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zet_Zju_Ios_Ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3495B3178CF07D003ECB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B3495B5178CF07D003ECB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B3495B7178CF07D003ECB5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B3495BB178CF07D003ECB5E /* Zet_Zju_Ios_Ipad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zet_Zju_Ios_Ipad-Info.plist"; sourceTree = "<group>"; };
+		9B3495BD178CF07D003ECB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B3495BF178CF07D003ECB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B3495C1178CF07D003ECB5E /* Zet_Zju_Ios_Ipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zet_Zju_Ios_Ipad-Prefix.pch"; sourceTree = "<group>"; };
+		9B3495C2178CF07D003ECB5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B3495C3178CF07D003ECB5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B3495C5178CF07D003ECB5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B3495C7178CF07D003ECB5E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B3495C9178CF07D003ECB5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B3495CB178CF07D003ECB5E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9B3495CC178CF07D003ECB5E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9B3495CE178CF07D003ECB5E /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		9B3495CF178CF07D003ECB5E /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		9B3495D1178CF07D003ECB5E /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		9B3495D2178CF07D003ECB5E /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		9B3495D5178CF07D003ECB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3495AD178CF07D003ECB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3495B4178CF07D003ECB5E /* UIKit.framework in Frameworks */,
+				9B3495B6178CF07D003ECB5E /* Foundation.framework in Frameworks */,
+				9B3495B8178CF07D003ECB5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3495A7178CF07D003ECB5E = {
+			isa = PBXGroup;
+			children = (
+				9B3495B9178CF07D003ECB5E /* Zet_Zju_Ios_Ipad */,
+				9B3495B2178CF07D003ECB5E /* Frameworks */,
+				9B3495B1178CF07D003ECB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3495B1178CF07D003ECB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3495B0178CF07D003ECB5E /* Zet_Zju_Ios_Ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3495B2178CF07D003ECB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B3495B3178CF07D003ECB5E /* UIKit.framework */,
+				9B3495B5178CF07D003ECB5E /* Foundation.framework */,
+				9B3495B7178CF07D003ECB5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B3495B9178CF07D003ECB5E /* Zet_Zju_Ios_Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				9B3495C2178CF07D003ECB5E /* AppDelegate.h */,
+				9B3495C3178CF07D003ECB5E /* AppDelegate.m */,
+				9B3495CB178CF07D003ECB5E /* RootViewController.h */,
+				9B3495CC178CF07D003ECB5E /* RootViewController.m */,
+				9B3495CE178CF07D003ECB5E /* DataViewController.h */,
+				9B3495CF178CF07D003ECB5E /* DataViewController.m */,
+				9B3495D1178CF07D003ECB5E /* ModelController.h */,
+				9B3495D2178CF07D003ECB5E /* ModelController.m */,
+				9B3495D4178CF07D003ECB5E /* MainStoryboard.storyboard */,
+				9B3495BA178CF07D003ECB5E /* Supporting Files */,
+			);
+			path = Zet_Zju_Ios_Ipad;
+			sourceTree = "<group>";
+		};
+		9B3495BA178CF07D003ECB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B3495BB178CF07D003ECB5E /* Zet_Zju_Ios_Ipad-Info.plist */,
+				9B3495BC178CF07D003ECB5E /* InfoPlist.strings */,
+				9B3495BF178CF07D003ECB5E /* main.m */,
+				9B3495C1178CF07D003ECB5E /* Zet_Zju_Ios_Ipad-Prefix.pch */,
+				9B3495C5178CF07D003ECB5E /* Default.png */,
+				9B3495C7178CF07D003ECB5E /* Default@2x.png */,
+				9B3495C9178CF07D003ECB5E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3495AF178CF07D003ECB5E /* Zet_Zju_Ios_Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3495D9178CF07D003ECB5E /* Build configuration list for PBXNativeTarget "Zet_Zju_Ios_Ipad" */;
+			buildPhases = (
+				9B3495AC178CF07D003ECB5E /* Sources */,
+				9B3495AD178CF07D003ECB5E /* Frameworks */,
+				9B3495AE178CF07D003ECB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zet_Zju_Ios_Ipad;
+			productName = Zet_Zju_Ios_Ipad;
+			productReference = 9B3495B0178CF07D003ECB5E /* Zet_Zju_Ios_Ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3495A8178CF07D003ECB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lee;
+			};
+			buildConfigurationList = 9B3495AB178CF07D003ECB5E /* Build configuration list for PBXProject "Zet_Zju_Ios_Ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B3495A7178CF07D003ECB5E;
+			productRefGroup = 9B3495B1178CF07D003ECB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3495AF178CF07D003ECB5E /* Zet_Zju_Ios_Ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3495AE178CF07D003ECB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3495BE178CF07D003ECB5E /* InfoPlist.strings in Resources */,
+				9B3495C6178CF07D003ECB5E /* Default.png in Resources */,
+				9B3495C8178CF07D003ECB5E /* Default@2x.png in Resources */,
+				9B3495CA178CF07D003ECB5E /* Default-568h@2x.png in Resources */,
+				9B3495D6178CF07D003ECB5E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3495AC178CF07D003ECB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3495C0178CF07D003ECB5E /* main.m in Sources */,
+				9B3495C4178CF07D003ECB5E /* AppDelegate.m in Sources */,
+				9B3495CD178CF07D003ECB5E /* RootViewController.m in Sources */,
+				9B3495D0178CF07D003ECB5E /* DataViewController.m in Sources */,
+				9B3495D3178CF07D003ECB5E /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B3495BC178CF07D003ECB5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3495BD178CF07D003ECB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B3495D4178CF07D003ECB5E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3495D5178CF07D003ECB5E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3495D7178CF07D003ECB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9B3495D8178CF07D003ECB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B3495DA178CF07D003ECB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zet_Zju_Ios_Ipad/Zet_Zju_Ios_Ipad-Prefix.pch";
+				INFOPLIST_FILE = "Zet_Zju_Ios_Ipad/Zet_Zju_Ios_Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B3495DB178CF07D003ECB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zet_Zju_Ios_Ipad/Zet_Zju_Ios_Ipad-Prefix.pch";
+				INFOPLIST_FILE = "Zet_Zju_Ios_Ipad/Zet_Zju_Ios_Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3495AB178CF07D003ECB5E /* Build configuration list for PBXProject "Zet_Zju_Ios_Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3495D7178CF07D003ECB5E /* Debug */,
+				9B3495D8178CF07D003ECB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3495D9178CF07D003ECB5E /* Build configuration list for PBXNativeTarget "Zet_Zju_Ios_Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3495DA178CF07D003ECB5E /* Debug */,
+				9B3495DB178CF07D003ECB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B3495A8178CF07D003ECB5E /* Project object */;
+}
